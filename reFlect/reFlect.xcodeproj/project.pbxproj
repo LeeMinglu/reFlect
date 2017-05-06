@@ -12,6 +12,7 @@
 		1A478B231EBCCF9500A86EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A478B211EBCCF9500A86EC3 /* Main.storyboard */; };
 		1A478B251EBCCF9500A86EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A478B241EBCCF9500A86EC3 /* Assets.xcassets */; };
 		1A478B281EBCCF9500A86EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A478B261EBCCF9500A86EC3 /* LaunchScreen.storyboard */; };
+		1A478B301EBE26C300A86EC3 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A478B2F1EBE26C300A86EC3 /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1A478B241EBCCF9500A86EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A478B271EBCCF9500A86EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A478B291EBCCF9500A86EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A478B2F1EBE26C300A86EC3 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "../Bundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1A478B1C1EBCCF9500A86EC3 /* reFlect */ = {
 			isa = PBXGroup;
 			children = (
+				1A478B2F1EBE26C300A86EC3 /* Bundle+Extension.swift */,
 				1A478B1D1EBCCF9500A86EC3 /* AppDelegate.swift */,
 				1A478B1F1EBCCF9500A86EC3 /* ViewController.swift */,
 				1A478B211EBCCF9500A86EC3 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A478B201EBCCF9500A86EC3 /* ViewController.swift in Sources */,
+				1A478B301EBE26C300A86EC3 /* Bundle+Extension.swift in Sources */,
 				1A478B1E1EBCCF9500A86EC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

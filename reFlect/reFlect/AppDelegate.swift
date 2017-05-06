@@ -36,10 +36,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          )
          , "MinimumOSVersion": 10.0]
          */
-        let an = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
+//        let an = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
         
 //        let vc = ViewController()
-        let clsName = an + ".ViewController"
+        let clsName = Bundle.main.namespace + ".ViewController"
         let cls = NSClassFromString(clsName) as? ViewController.Type
 
         let vc = cls?.init()
